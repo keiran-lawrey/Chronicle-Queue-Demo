@@ -20,8 +20,8 @@ When this asks you which packages you want to install, search for and add `git`.
 
 image::gitpack.png[]
 
-Open Intelij or your https://en.wikipedia.org/wiki/Integrated_development_environment[IDE], or https://www.jetbrains.com/idea/download/#section=windows[install Intelij] first if you haven't already.
-Intelij is used for this tutorial.
+Open Intellij or your https://en.wikipedia.org/wiki/Integrated_development_environment[IDE], or https://www.jetbrains.com/idea/download/#section=windows[install Intellij] first if you haven't already.
+Intellij is used for this tutorial.
 
 Go to `Get from VCS`
 This is where you will get a copy of the Chronicle Queue Sample code.
