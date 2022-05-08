@@ -10,15 +10,27 @@ Go to the module `simple-input`, then `src`, `main`, `java` and `net.openhft.chr
 
 This will take you to `InputMain.java`, `OutputMain.java` and `PrintQueueMain.java` java classes.
 
-image::lotsafiles.png[]
+image::lotsafiles.PNG[]
 
 Select `InputMain` from the side bar.
 You may come across an issue with the SDK (which is really the JDK in this case, because JDK is an SDK specific to Java).
-You need to go to `Configure...`, add JDK and save it in a directory with JDK.
+You need to go to `Setup SDK`, you will `Download JDK` and click `Download` at the pop-up.
+It will complain again but this time that the JDK is misconfigured. Here you simply need to click `Setup JDK` again and press the new first option.
 
 [frame="none"]
 |====
-| image:setJDK.png[] | image:AddJDK.png[] | image:JDKhome.png[]
+| image:setJDK.PNG[]
+|====
+
+Next thing's next you want to click the settings icon in the top right of the screen and then click `Project Structure`.
+Move to the drop-down menu in the `SDK` section, move to `Add SDK` and click `Download SDK`.
+Then under `Version` you should pick `1.8` and under `Vendor` you should pick `Amazon Corretto` and then click `Download`.
+In the `SDK` section you should have your new version selected but also in `Language Level` you want to have selected `8 - Lambdas, type annotations etc`.
+Now click `Ok`.
+
+[frame="none"]
+|====
+| image:projstruc.PNG[] | image:version1.8.PNG[] | image:LangLevel.PNG[]
 |====
 
 Now you can run `InputMain.java` by right-clicking on the code and selecting `Run 'InputMain.main()'`.
