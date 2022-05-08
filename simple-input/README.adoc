@@ -16,10 +16,7 @@ Select `InputMain` from the side bar.
 You may come across an issue with the SDK (which is really the JDK in this case, because JDK is an SDK specific to Java).
 You need to go to `Setup SDK`, you will `Download JDK` and click `Download` at the pop-up.
 
-[frame="none"]
-|====
-| image:setJDK.png[]
-|====
+image:setJDK.png[]
 
 It will complain again but this time that the JDK is misconfigured. Here you simply need to click `Setup JDK` again and press the new first option.
 
