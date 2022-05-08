@@ -26,6 +26,8 @@ Intelij is used for this tutorial.
 Go to `Get from VCS`
 This is where you will get a copy of the Chronicle Queue Sample code.
 
+If you already have IntelliJ and you have projects open you can double tap shift and then type `Get From Version Control` and select the appropriate option.
+
 Next, copy the URL below into the `URL` box,
 and remember to take note of the `Directory`. Press `Clone`.
 
