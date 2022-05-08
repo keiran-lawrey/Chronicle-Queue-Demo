@@ -19,7 +19,7 @@ It will complain again but this time that the JDK is misconfigured. Here you sim
 
 [frame="none"]
 |====
-| image:setJDK.PNG[]
+| image:setJDK.png[]
 |====
 
 Next thing's next you want to click the settings icon in the top right of the screen and then click `Project Structure`.
@@ -30,7 +30,7 @@ Now click `Ok`.
 
 [frame="none"]
 |====
-| image:projstruc.PNG[] | image:version1.8.PNG[] | image:LangLevel.PNG[]
+| image:projstruc.png[] | image:version1.8.png[] | image:LangLevel.png[]
 |====
 
 Now you can run `InputMain.java` by right-clicking on the code and selecting `Run 'InputMain.main()'`.
