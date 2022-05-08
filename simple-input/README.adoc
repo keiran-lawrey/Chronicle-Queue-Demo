@@ -24,7 +24,8 @@ You need to go to `Setup SDK`, you will `Download JDK` and click `Download` at t
 It will complain again but this time that the JDK is misconfigured. Here you simply need to click `Setup JDK` again and press the new first option.
 
 Next thing's next you want to click the settings icon in the top right of the screen and then click `Project Structure`.
-Move to the drop-down menu in the `SDK` section, move to `Add SDK` and click `Download SDK`.
+Move to the drop-down menu in the `SDK` section, move to `Add SDK` and click `Download JDK`.
+
 Then under `Version` you should pick `1.8` and under `Vendor` you should pick `Amazon Corretto` and then click `Download`.
 In the `SDK` section you should have your new version selected but also in `Language Level` you want to have selected `8 - Lambdas, type annotations etc`.
 Now click `Ok`.
